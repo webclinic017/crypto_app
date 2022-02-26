@@ -81,7 +81,7 @@ real_data_btc = np.reshape(real_data_btc, (real_data_btc.shape[0], real_data_btc
 
 
 
-@app.route('/btc')
+@app.route('/')
 def btc():
     prediction1 = model1.predict(real_data_btc)
     prediction1 = scaler.inverse_transform(prediction1)
