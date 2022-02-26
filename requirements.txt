@@ -107,6 +107,7 @@ sip==6.5.1
 six==1.16.0
 sklearn==0.0
 soupsieve==2.3.1
+tensorflow==2.7.1
 testpath==0.5.0
 toml==0.10.2
 tomli==1.2.3
